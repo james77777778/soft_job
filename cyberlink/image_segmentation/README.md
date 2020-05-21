@@ -2,6 +2,13 @@
 ## Source
 https://github.com/qubvel/segmentation_models.pytorch
 
+## 傳統
+1. k-means clustering
+    1. 隨機初始化k個點
+    2. 將所有點找距離最近的群集中心點
+    3. 計算出error，並且可求出已經分群好的最佳解
+    4. 更新新的群集中心 從 2. 再次開始
+
 ## Model Architectures
 1. Unet
 
