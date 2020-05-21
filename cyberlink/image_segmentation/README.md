@@ -40,3 +40,9 @@ https://github.com/qubvel/segmentation_models.pytorch
 
     Atrous Convolution = Dilated Convolution
     本篇主要利用Dilated Convolution取代Pooling，來譬免最後結果模糊的問題。
+
+7. HRNet
+
+    相比過往的net，HRNet可以一直維持high resolution，而在中間會增加high-to-low的subnetworks，並且採並聯的方式。 利用反覆且多尺度的融合，能夠維持生成的高解析度。
+
+    ![](images/HRNet.png)
