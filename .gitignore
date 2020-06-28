@@ -3,3 +3,6 @@ bin
 
 # venv
 venv
+
+# vscode
+.vscode
