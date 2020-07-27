@@ -77,4 +77,5 @@ print(y_hat)
 '''
 tensor([[[[37., 47.],
           [67., 77.]]]], grad_fn=<MkldnnConvolutionBackward>)
+37 = 1*1+2*2+4*3+5*4
 '''
